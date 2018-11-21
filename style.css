@@ -1,0 +1,31 @@
+#header {
+	color: red;
+	background-color: lightgrey;
+	height: 100px;
+}
+
+.header-div {
+	display: flex;
+	float: left;
+}
+
+#header img {
+	height: 100px;
+	width: 100px;
+	background: none;
+	display: inline-block;
+}
+
+#header h1 {
+	display: inline-block;
+	font-size: 50px;
+}
+
+#nav-bar {
+	display: flex;
+	float: right;
+}
+
+#video {
+	display: block;
+}
