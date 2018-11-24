@@ -1,31 +1,180 @@
+* {
+	margin: none;
+
+}
+
+/********** HEADER AND NAVBAR **********/
+
 #header {
-	color: red;
-	background-color: lightgrey;
-	height: 100px;
+	display: inline-block;
+	color: #ECA400;
+	background-color: #675C6A;
+	/*height: 100px;*/
+	padding-bottom: 10px;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
 .header-div {
 	display: flex;
 	float: left;
+	width: 100%;
+}
+
+.new-div {
+	display: block;
+	height: 60px;
+	padding: 10px;
 }
 
 #header img {
-	height: 100px;
-	width: 100px;
+	height: 60px;
+	width: 60px;
 	background: none;
 	display: inline-block;
 }
 
 #header h1 {
 	display: inline-block;
-	font-size: 50px;
+	font-size: 35px;
 }
 
-#nav-bar {
-	display: flex;
-	float: right;
+/*#nav-bar {
+	display: block;
+	width: 100%;
+	height: 100px;
+}*/
+
+#nav-bar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
+
+.nav-link {
+	display : block;
+	background-color: #305670;
+	color: #ECA400;
+	margin: 8px auto;
+	width: 85%;
+	border: 1px solid #ECA400;
+	border-radius: 3px;
+	height: 1em;
+	padding: 15px 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+li a:hover {
+	background-color: #ECA400;
+	color: #305670;
+	border-color: #AFC1E4;
+}
+
+/********** PRODUCT INFO AND VIDEO **********/
+
+#product-info {
+	padding: 20px 10px;
+	background-color: #AFC1E4;
+	color: #675C6A; 
+	font-weight: bold;
+	
+}
+
+#product-info h2 {
+	font-size: 35px;
+	text-align: center;
+}
+
+
 
 #video {
-	display: block;
+	width: 100%;
+	height: 250px;
+	border: 3px solid #675C6A;
+	border-radius: 3px;
 }
+
+
+/********** PRICING **********/
+
+#pricing {
+	padding: 5px 10px 20px 10px;
+	background-color: #AFC1E4;
+	color: #675C6A;
+	text-align: center;
+	font-weight: bold;
+}
+
+#pricing h2 {
+	font-size: 35px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.item {
+	margin: 0 auto;
+	width:30%;
+	height: 200px;
+	font-size: 10px;
+	border: 1px solid #ECA400;
+	border-radius: 3px;
+	background-color: #A5B8D9;
+	align-content: center;
+}
+.item img {
+	padding: 10px;
+	max-width: 80%;
+	max-height: 50%;
+}
+
+.item p {
+
+}
+
+
+/********** CONTACT **********/
+
+.form {
+	background-color: #675C6A;
+	color: #ECA400;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#submit {
+	background-color: #A5B8D9;
+	color: #675C6A;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+#submit:hover {
+	background-color: #305670;
+	color: #ECA400;
+}
+
+/********** COLOR SCHEME **********/
+/*
+#A5B8D9
+#AFC1E4
+#305670
+#ECA400
+#675C6A
+*/
+
+
+
+
+
+
+
