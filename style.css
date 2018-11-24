@@ -1,6 +1,6 @@
 * {
 	margin: none;
-
+	font-family: 'Bree Serif', serif;
 }
 
 /********** HEADER AND NAVBAR **********/
@@ -9,7 +9,6 @@
 	display: inline-block;
 	color: #ECA400;
 	background-color: #675C6A;
-	/*height: 100px;*/
 	padding-bottom: 10px;
 	position: -webkit-sticky;
 	position: sticky;
@@ -40,6 +39,7 @@
 #header h1 {
 	display: inline-block;
 	font-size: 35px;
+	font-family: 'Permanent Marker', cursive;
 }
 
 /*#nav-bar {
@@ -58,7 +58,7 @@
 	display : block;
 	background-color: #305670;
 	color: #ECA400;
-	margin: 8px auto;
+	margin: 15px auto;
 	width: 85%;
 	border: 1px solid #ECA400;
 	border-radius: 3px;
@@ -66,6 +66,7 @@
 	padding: 15px 0;
 	text-decoration: none;
 	text-align: center;
+	vertical-align: middle;
 	font-size: 20px;
 }
 
@@ -82,7 +83,7 @@ li a:hover {
 	background-color: #AFC1E4;
 	color: #675C6A; 
 	font-weight: bold;
-	
+	margin: 0 auto;
 }
 
 #product-info h2 {
@@ -93,10 +94,11 @@ li a:hover {
 
 
 #video {
-	width: 100%;
+	width: 98%;
 	height: 250px;
 	border: 3px solid #675C6A;
 	border-radius: 3px;
+	
 }
 
 
@@ -137,7 +139,7 @@ li a:hover {
 }
 
 .item p {
-
+	padding: 8px;
 }
 
 
@@ -146,9 +148,13 @@ li a:hover {
 .form {
 	background-color: #675C6A;
 	color: #ECA400;
-	padding: 10px;
+	padding: 2px 10px;
 	text-align: center;
 	font-weight: bold;
+}
+
+#form h3 {
+	font-size: 30px;
 }
 
 #submit {
@@ -163,6 +169,50 @@ li a:hover {
 	color: #ECA400;
 }
 
+/********** Media Queries **********/
+
+/* screen min-width 768 */
+        
+@media only screen and (min-width: 768px) {
+
+	#header {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.new-div {
+		float: left;
+		width: 40%;
+	}
+
+	#nav-bar ul {
+		float: right;
+		display: inline;
+		width: 60%;
+		/*height: 100px;*/
+		padding-top: 0;
+		margin-top: 4px;
+	}
+
+	#nav-bar li {
+		width: 150px;
+		display: inline;
+		float: right;
+	}
+
+	.nav-link {
+		display: block;
+	}
+
+
+}
+
+/* screen min-width 1224 */
+
+@media only screen and (min-width: 1224px) {
+
+}
+
 /********** COLOR SCHEME **********/
 /*
 #A5B8D9
@@ -172,7 +222,13 @@ li a:hover {
 #675C6A
 */
 
+/********** FONTS **********/
+/*
+font-family: 'Bree Serif', serif;
+font-family: 'Permanent Marker', cursive;
 
+
+*/
 
 
 
